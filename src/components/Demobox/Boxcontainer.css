@@ -1,0 +1,34 @@
+.boxclass{
+    display: flex;
+    
+    position: absolute;
+    width: 800px;
+    height: 983px;
+    left: 961px;
+    top: 20px;
+    
+    }
+    .box1{
+        position: absolute;
+        left: 0px;
+        top: 0px;
+    }
+
+    .box2{
+        position: absolute;
+        left: 400px;
+        top: 60px;
+    
+    }
+    
+    .box3{
+        position: absolute;
+        left: 0px;
+        top: 460px;
+    }
+    
+    .box4{
+        position: absolute;
+        left: 400px;
+        top: 520px;
+    }

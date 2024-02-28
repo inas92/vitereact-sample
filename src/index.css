@@ -1,0 +1,53 @@
+
+:root {
+    --yellow-color:#FEEDBC;
+    --dark-yellow:#F9B800;
+
+}
+
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+
+}
+
+body{
+    margin: 0;
+    font-family: 'Segoe UI';
+}
+
+.wrapper{
+    max-width: 780px;
+    margin: 0 auto;
+}
+ 
+a{
+  text-decoration: none;  
+}
+.demo-btn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+    Width:350px;
+    Height:78px;
+    border-radius: 5000px;
+    Padding:22px, 50px, 24px;
+    gap: 70px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    order: 2;
+    flex-grow: 0;
+    flex: none;
+ 
+}
+
+.draw1{
+    position: absolute;
+    width: 714px;
+    height: 714px;
+    left: 1046px;
+    top: 140px;
+}

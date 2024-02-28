@@ -1,0 +1,37 @@
+.nav-frame{
+    position: absolute;
+    width: 1600px;  
+    height: 96px;
+    left: 160px;
+    top: 60px;
+    background: #FFFFFF;
+    border-radius: 5000px;
+
+}
+
+.logo{
+    position: absolute;
+    width: 127px;
+    height: 63px;
+    left: 736px;
+    top: 16px;
+
+}
+
+.flag{
+    position: absolute;
+    left: 0;
+    right: 78px;
+    top: 15px;
+
+}
+
+.flagsection{
+    position: absolute;
+    width: 67px;
+    height: 24px;
+    right: 30px;
+    top: 26px;
+
+}
+

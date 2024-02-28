@@ -1,0 +1,52 @@
+.demo-btn{
+    position: relative;
+    top: 500px ;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+    Width:350px;
+    Height:78px;
+    border-radius: 5000px;
+    Padding:22px, 50px, 24px;
+    gap: 70px;
+   
+   
+}
+.demo-btn:hover {
+    transform: scale(1.05);
+
+}
+
+
+/*.hover-overlay {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    pointer-events: none; 
+    transition: box-shadow 0.3s;
+   
+  }*/
+
+.button-text{
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+   
+}
+
+.arrow-icon{
+    margin: 0 auto;
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s;
+}
+
+.demo-btn:hover .arrow-icon{
+    transform: rotate(90deg);
+}
+

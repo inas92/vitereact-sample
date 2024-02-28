@@ -1,0 +1,95 @@
+.testimonial-wrapper{
+    position: absolute;
+    width: 1500px;
+    height: 572px;
+    left: 140px;
+    top: 2800px;
+    color: #262626;
+    transition: color 0.3s;
+    border-radius: 100px;
+    background-color: white;
+   
+    transition: background-size 0.3s;
+}
+.testimonial-wrapper:hover{
+    background-size: 120%;
+    color: white;
+}
+.testimonial-wrapper:hover::before{
+        opacity: 1; 
+}
+
+.testimonial-wrapper:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../../assets/testimonial.png'); /* Replace with the path to your background image on hover */
+    background-size: 120%; /* Increase the background size on hover to create a zoom effect */
+    background-position: center;
+    z-index: 0;
+    opacity: 0; /* Initially hide the background image */
+    transition: opacity 0.3s;
+}
+.test-frame{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    gap: 72px;
+    background-color: white;
+    position: absolute;
+    width: 1280.93px;
+    height: 472px;
+    left: 135px;
+    top: 100px;
+}
+.testimonial-wrapper:hover .test-frame{
+    background: transparent;
+}
+
+.test-image{
+    width: 472px;
+    height: 472px;
+
+    border-radius: 500px;
+    
+}
+
+.heading{
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 67px;
+  
+    width: 702px;
+    height: 67px;
+
+
+}
+
+.content{
+    
+    width: 836.93px;
+    height: 120px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+ 
+
+}
+
+
+
+.by{
+    width: 172px;
+    height: 32px;
+
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    
+
+}
