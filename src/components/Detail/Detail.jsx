@@ -29,6 +29,7 @@ const Detail = () => {
           shadowColor="#FFFFFF"
           textColor="#FFFFFF"
           icon={arrow2}
+          place="400px"
         />
       </div>
       <div className="detail-image">

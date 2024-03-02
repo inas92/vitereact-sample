@@ -9,7 +9,7 @@ const Header = () => {
   return (
     <header>
       <div className="wrapper">
-      <Navbar/>      
+        <Navbar />
         <div className="text-block1">
           <p className="sec">RISUS PRESENT VULPJUATE</p>
           <div className="section">
@@ -36,6 +36,7 @@ const Header = () => {
             shadowColor="#262626"
             textColor="#262626"
             icon={arrow}
+            place="500px"
           />
         </div>
         <img className="draw1" src={draw} alt="image" />

@@ -11,4 +11,5 @@ import test1 from "./testimonial.png";
 import draw3 from "./DrawKit3.png";
 import arrow from "./arrowicon.png";
 import arrow2 from "./arrowicon2.png";
-export {flag,logo,draw,draw2,icon,icon1,icon2,icon3,icon4,test1,draw3,arrow,arrow2}
+import state1 from "./State=Not Moving (1).png";
+export {flag,logo,draw,draw2,icon,icon1,icon2,icon3,icon4,test1,draw3,arrow,arrow2,state1}

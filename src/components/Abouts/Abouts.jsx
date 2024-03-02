@@ -17,6 +17,7 @@ const Abouts = () => {
           shadowColor="#F9B800"
           textColor="#262626"
           icon={arrow}
+          place="600px"
         />
       </div>
 

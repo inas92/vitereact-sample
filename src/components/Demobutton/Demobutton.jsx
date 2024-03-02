@@ -2,13 +2,14 @@ import { useState } from "react";
 import "./Demobutton.css";
 
 // eslint-disable-next-line react/prop-types
-const Demobutton = ({ bgColor, shadowColor, textColor , icon}) => {
+const Demobutton = ({ bgColor, shadowColor, textColor , icon, place}) => {
   const [isHovered, setIsHovered] = useState(false);
  
   const label = "Loren Ipsum";
   const buttonStyle = {
     backgroundColor: bgColor,
     color:textColor,
+    top:place,
     boxShadow: isHovered ? `9px 9px 0px ${shadowColor}` : "none",
   };
   
